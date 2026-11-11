@@ -45,7 +45,7 @@ void drawMirror2(int time_pos=0, int doSave=0, int move=1)
   
 
   int nMirrXPoints=5;
-  double yMirrPos1=-1.5, yMirrPos2=1.5;
+  double yMirrPos1=-1.5, yMirrPos2=3;
   double tPos= tMin + time_pos*tH;
   double xVelPerTime=2*move;
   int nBeamTicks=4;
